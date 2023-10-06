@@ -42,4 +42,4 @@ By participating in the Discord advertising service provided by DevConnect, you 
 
 #### 8. Contact Information
 
-8.1. For any questions or concerns regarding these terms and conditions, please contact us at [Your Contact Email].
+8.1. For any questions or concerns regarding these terms and conditions, please contact us on Discord at itsalem.
