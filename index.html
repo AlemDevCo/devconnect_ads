@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>DevConnect [ Giveaway Advertising ]</title>
     <style>
         body {
             background-color: #1e1e1e;
@@ -34,13 +34,20 @@
             padding: 10px 20px;
             cursor: pointer;
         }
+        /* Style the terms and conditions link */
+        a {
+            color: #3498db; /* Blue color */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="your-logo.png" alt="Your Logo">
-        <h1>Welcome to Your Website</h1>
-        <p>Please read and accept our <a href="terms-and-conditions.html">Terms and Conditions</a>:</p>
+        <h1>DevConnect [ Giveaway Advertising ]</h1>
+        <p>Please read and accept our <a href="terms.md">Terms and Conditions</a>:</p>
         <div class="checkbox-container">
             <input type="checkbox" id="accept-checkbox">
             <label for="accept-checkbox" class="checkbox-label">I agree to the Terms and Conditions</label>
@@ -51,7 +58,7 @@
     <script>
         function redirectToLink() {
             if (document.getElementById("accept-checkbox").checked) {
-                window.location.href = "terms.md";
+                window.location.href = "gamepass.alemdev.org";
             } else {
                 alert("Please accept the Terms and Conditions to continue.");
             }
